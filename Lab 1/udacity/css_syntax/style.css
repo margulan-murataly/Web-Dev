@@ -1,0 +1,3 @@
+.kitten-image {
+    filter: grayscale(1000%); /* Makes the image black and white */
+}

@@ -1,0 +1,118 @@
+body {
+    background-color: gold;
+}
+h1 {
+
+    background-image: url(webdevv.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    padding: 200px;
+
+}
+p {
+    border: 2px solid red;
+    padding: 50px;
+    margin: 90px;
+}
+/* 
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+a:hover {
+
+    color: black;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: yellow;
+    text-decoration: none;
+} */
+
+.btn-primary:link, .btn-primary:visited {
+  background-color: silver;
+  color: black;
+  padding: 150px 100px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+table, th, td {
+    border: 5px solid plum;
+    /* border-collapse: collapse; */
+    /* border-radius: 19px; */
+}
+
+table {
+    border-spacing: 20px;
+}
+/* 
+th, td {
+  background-color: #96D4D4;
+} */
+
+ul {
+    list-style-type: none;
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+li {
+    flex: 1;
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 120xp;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li a:hover {
+    background-color: black;
+    
+} 
+
+
+
+div {
+  width: 300px;
+  margin: auto;
+  background-color: #FFF4A3;
+}
+
+
+
+
+.mycontainer {
+  display: flex;
+}
+
+
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
