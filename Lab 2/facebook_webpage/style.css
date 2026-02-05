@@ -1,0 +1,257 @@
+html, body {
+    
+    height: 100%;
+    margin: 0;
+
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+#info-bar {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+#co-main {
+    width: 75%;
+    height: 75%;
+
+    display: flex;
+}
+
+#main-content-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+#main-log-in-page{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#facebook-title {
+    display: flex;
+    align-items: flex-end;
+    flex: 0.7;
+
+    
+
+}
+
+#text {
+    flex: 1.3;
+
+
+}
+
+#facebook {
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#description {
+    font-size: 42px;
+    margin: 0;
+}
+
+#log-in-block {
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+    flex: 1.4;
+}
+
+#log-in-text-block {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+#log-in-text {
+    font-size: 20px;
+
+}
+
+#log-in-page {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sign-in-block {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;      
+    width: 90%;
+
+}
+
+#new-acc-block {
+    flex: 0.5;
+    width: 90%;
+    border-top: 1px solid gainsboro;
+
+
+}
+
+#input-name {
+    border: 1px solid gainsboro;
+    margin-top: 45px;
+    border-radius: 5px;
+    font-size: 25px;   
+    padding: 15px 20px;
+
+
+}
+
+#input-password {
+    border: 1px solid gainsboro;
+    
+    border-radius: 5px;
+    font-size: 25px; 
+    padding: 15px 20px;
+}
+#enter-btn {
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#enter-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+#forgot-pass {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#new-acc-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#create-acc-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: green;
+    width: 60%;
+
+    
+}
+
+#create-acc-txt {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#create-page{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#log-in-text-co-block {
+    padding-top: 20px;
+    width: 65%;
+
+}
+#languages {
+
+    width: 80%;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#other {
+
+    width: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+
+
+
+}
+#meta-block {
+
+    width: 80%;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+
+
+}
+
+.lists {
+    display: flex;      
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: grey;
+    gap: 20px; 
+}
+
+#meta {
+    color: grey;
+    margin: 0;
+}

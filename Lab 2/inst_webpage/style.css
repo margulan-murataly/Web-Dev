@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#instagram_logo {
+    
+    width: 50px;
+    height: 50px;
+
+}
+
+#phone_mockup {
+    width: 400px;
+}
+
+.text_mockup {
+    border-right: 1px solid lightgray;
+
+    padding: 0 200px;
+}
+
+.content{
+    display: flex;
+    height: 80vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    
+    margin-right:auto;
+    font-size: large;
+}
+
+.forma.alternative {
+    margin-left: 50px;
+    
+}
+
+.forma.main {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.input,
+.btn {
+    width: 450px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 5px 0;
+    border: none;
+}
+
+.input {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-left: 5px;
+}
+
+.btn {
+    border-radius: 15px;
+    gap:5px;
+    height: 35px;
+    
+}
+
+#text_enter {
+    text-align: left;
+}
+
+#forgetpass {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+#forgetpass:hover {
+    text-decoration: underline;
+}
+
+#enter {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#facebook {
+    border: 1px solid lightgray;
+    background-color: white;
+    cursor: pointer;
+}
+
+#create-account {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    font-size: smaller;
+    justify-content: center;
+}
+
+#friends {
+    color: pink;
+}
+
+#meta {
+    font-size: smaller;
+}
