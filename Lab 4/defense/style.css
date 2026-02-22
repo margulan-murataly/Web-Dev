@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.item-name {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.add-item {
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+
+
+.delete {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+}
+
+.item-list {
+    display: flex;
+    align-items: center;
+    
+}
+
