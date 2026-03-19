@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button onclick="onClickButton()"> Press me! </button>
+    <br>
+    <button ondblclick="onClickButton()"> Press me! (double) </button>
+    <br>
+    <button onmouseover="onClickButton()"> Mouse me! </button> -->
+
+    <!-- <button onclick="onClickButton(this)">Нажми чтобы считать квадраты два!</button> -->
+
+    <!-- <input oninput="onInput(this)"> -->
+
+    <script src="js/objconthtml.js"></script>
+
+    <p id="someText"></p>
+
+    <br>
+
+    <strong></strong>
+    <strong></strong>
+    <strong></strong>
+    
+
+    <form id="main-form" onsubmit="return checkForm(this)">
+      <label for="name">Имя:</label>
+      <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+      <label for="password">Пароль:</label>
+      <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
+      <label for="repass">Проверка пароля:</label>
+      <input type="password" name="repass" placeholder="Проверка пароля" id="repass">
+      <span>Пол:</span>
+      <input type="radio" name="state" id="male" value="Мужской">
+      <label for="male">Мужской</label>
+      <input type="radio" name="state" id="female" value="Женский">
+      <label for="female">Женский</label><br><br>
+      <input type="submit" name="submit" value="Готово">
+</form>
+
+
+</body>
+</html>
